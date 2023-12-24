@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400&display=swap");
+body {
+  font-family: "Space Mono", monospace;
+  background-color: #000;
+  color: green;
+}
+
+sparkles {
+  color: #066806;
+}
+
+.frame {
+  position: relative;
+}
+
+matrixframe {
+  position: absolute;
+  mix-blend-mode: screen;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-family: monospace;
+  color: #a80707;
+}
+
+.christmas-animation {
+  min-height: 100vh;
+}
+.christmas-animation .typewriter {
+  text-align: center;
+}
+.christmas-animation .typewriter .heading {
+  font-size: 4rem;
+}
+.christmas-animation .typewriter .body {
+  font-size: 3rem;
+}
+.christmas-animation .typewriter .typewriter_caret {
+  animation: blink 500ms infinite;
+  color: #fff;
+  display: none;
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
